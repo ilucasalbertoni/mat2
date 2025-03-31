@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD; /* Cor roxa */
     width: 130px;
     padding: 20px;
-    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
@@ -80,7 +80,7 @@ header {
 .video-container iframe {
     margin: 10px 0; /* Espaço entre os vídeos */
     max-width: 100%; /* Garante que o vídeo não ultrapasse a largura do contêiner */
-    height: auto; /* Mantém a proporção do vídeo */
+    height: 200px; /* Mantém a proporção do vídeo */
 }
 
 /* Rodapé */
