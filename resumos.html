@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prova/Mat2</title>
-    <link rel="stylesheet" href="resumos.css"> <style>
+    <link rel="stylesheet" href="resumos.css">
+    <style>
         /* Adicionando estilo para aumentar o espaçamento entre as linhas */
         .content-box p, .content-box ul {
             line-height: 1.6; /* Ajuste o valor conforme necessário */
@@ -34,7 +35,7 @@
     <div class="container">
         <nav class="sidebar">
             <ul>
-               <li><a href="index.html" class="button">Introdução</a></li>
+                <li><a href="index.html" class="button">Introdução</a></li>
                 <li><a href="conteudos.html" class="button">Conteúdos</a></li>
                 <li><a href="videos.html" class="button">Vídeos</a></li>
                 <li><a href="atividades.html" class="button">Atividades</a></li>
@@ -44,14 +45,31 @@
         </nav>
 
         <main class="content">
-            <img src="ian-joao.jpg" alt="Imagem Superior" class="left-image"style="width:100px; height:75px;">
-        </main>
-    </div>
+            <img src="ian-joao.jpg" alt="Imagem Superior" class="left-image" style="width:100px; height:75px;">
 
-    <footer>
-         <img src="ian-joao.jpg" alt="Imagem Superior" class="left-image"style="width:100px; height:75px;">
-        <p>&copy; 2025 Análise combinatóris. Todos os direitos reservados.</p>
-    </footer>
+            <div class="content-box">
+                <h2>1. Fatorial (!)</h2>
+                <p>O fatorial de um número <em>n</em>, representado por <em>n!</em>, é o produto de todos os números inteiros positivos de 1 até <em>n</em>:</p>
+                <p><em>n! = n × (n-1) × (n-2) × ... × 2 × 1</em></p>
+                <p>Exemplo: <em>5! = 5 × 4 × 3 × 2 × 1 = 120</em></p>
+                <p>Por convenção, <em>0! = 1</em>.</p>
+            </div>
 
-</body>
-</html>
+            <div class="content-box">
+                <h2>2. Arranjo Simples</h2>
+                <p>O arranjo simples ocorre quando escolhemos <em>k</em> elementos de um conjunto com <em>n</em> elementos, considerando a ordem. A fórmula é:</p>
+                <p><em>A<sub>n,k</sub> = n! / (n-k)!</em></p>
+                <p>Exemplo: Quantas formas diferentes podemos formar senhas de 3 dígitos distintos usando os números de 1 a 5?</p>
+                <p><em>A<sub>5,3</sub> = 5! / (5-3)! = 5! / 2! = (5 × 4 × 3) / 1 = 60</em></p>
+            </div>
+
+            <div class="content-box">
+                <h2>3. Combinação Simples</h2>
+                <p>A combinação simples ocorre quando escolhemos <em>k</em> elementos de um conjunto com <em>n</em> elementos, sem considerar a ordem. A fórmula é:</p>
+                <p><em>C<sub>n,k</sub> = n! / (k! (n-k)!)</em></p>
+                <p>Exemplo: Quantas equipes de 3 pessoas podem ser formadas a partir de um grupo de 5?</p>
+                <p><em>C<sub>5,3</sub> = 5! / (3!(5-3)!) = 5! / (3!2!) = (5 × 4) / (2 × 1) = 10</em></p>
+            </div>
+
+            <div class="content-box">
+               
