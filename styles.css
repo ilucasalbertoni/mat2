@@ -77,6 +77,32 @@ header {
     padding: 15px; /* Espaçamento interno */
     margin: 15px 0; /* Margem superior e inferior */
 }
+/* Estilo para centralizar imagens */
+.content-box img {
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo dos cabeçalhos das seções */
+h3 {
+    font-size: 24px; /* Aumenta o tamanho dos cabeçalhos */
+    margin-bottom: 10px; /* Espaço abaixo do cabeçalho */
+}
+
+/* Estilo dos parágrafos */
+p {
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    margin-bottom: 15px; /* Espaço entre parágrafos */
+}
+
+/* Estilo dos números (dígitos) */
+strong {
+    font-size: 20px; /* Aumenta o tamanho dos dígitos */
+    color: #FFD700; /* Cor dourada para destacar os dígitos */
+}
+
 
 /* Rodapé */
 footer {
