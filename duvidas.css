@@ -1,0 +1,121 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo principal */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura da tela */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #7D00DD;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Layout da página */
+.container {
+    display: flex;
+    flex-grow: 1; /* Permite que o container cresça para ocupar o espaço disponível */
+}
+
+/* Faixa lateral esquerda */
+.sidebar {
+    background-color: #7D00DD;
+    width: 130px;
+    padding: 20px;
+    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin: 10px 0; /* Margem entre os botões */
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    display: flex; /* Usar flexbox para centralizar o texto */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100px; /* Largura total do botão */
+    height: 75px; /* Altura fixa para todos os botões */
+    background-color: #000000; /* Cor de fundo do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.sidebar a:hover {
+    background-color: #545454; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo do conteúdo principal */
+.content {
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #333333; /* Cor de fundo do formulário */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    background-color: #444444; /* Cor de fundo dos campos */
+    color: #FFFFFF; /* Cor do texto nos campos */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7D00DD; /* Cor do botão */
+    color: #FFFFFF; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #5a00a3; /* Cor do botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #7D00DD;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Fixa o rodapé na parte inferior */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+    left: 0;
+    right: 0; /* Garante que o rodapé ocupe toda a largura da página */
+}
