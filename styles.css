@@ -34,7 +34,7 @@ header {
     background-color: #7D00DD; /* Cor roxa */
     width: 130px;
     padding: 20px;
-    height: 100%; /* Garante que a barra lateral ocupe toda a altura da página */
+    height: 100; /* Garante que a barra lateral ocupe toda a altura da página */
 }
 
 .sidebar ul {
