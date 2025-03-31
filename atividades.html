@@ -51,7 +51,7 @@
                     <li>c) 3 024 senhas</li>
                     <li>d) 4 256 senhas</li>
                 </ul>
-                <button class="button" onclick="toggleResposta('resposta1')">Mostrar Resposta</button>
+                <button onclick="toggleResposta('resposta1')">Mostrar Resposta</button>
                 <div id="resposta1" class="content-box" style="display: none;">
                     <p><strong>Resposta correta:</strong> c) 3 024 senhas.</p>
                     <p>Usando o princípio fundamental da contagem, temos:</p>
@@ -60,12 +60,150 @@
                 </div>
             </div>
 
-            <!-- Adicione as outras questões aqui, seguindo o mesmo padrão -->
+            <div class="content-box">
+                <h3>Questão 2</h3>
+                <p>Um técnico de um time de voleibol possui a sua disposição 15 jogadores que podem jogar em qualquer posição. De quantas maneiras ele poderá escalar seu time de 6 jogadores?</p>
+                <ul>
+                    <li>a) 4 450 maneiras</li>
+                    <li>b) 5 210 maneiras</li>
+                    <li>c) 4 500 maneiras</li>
+                    <li>d) 5 005 maneiras</li>
+                </ul>
+                <button onclick="toggleResposta('resposta2')">Mostrar Resposta</button>
+                <div id="resposta2" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> d) 5 005 maneiras.</p>
+                    <p>Usamos a fórmula de combinação: C(15, 6) = 15! / (6! * 9!) = 5 005 maneiras.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 3</h3>
+                <p>De quantas maneiras diferentes uma pessoa pode se vestir tendo 6 camisas e 4 calças?</p>
+                <ul>
+                    <li>a) 10 maneiras</li>
+                    <li>b) 24 maneiras</li>
+                    <li>c) 32 maneiras</li>
+                    <li>d) 40 maneiras</li>
+                </ul>
+                <button onclick="toggleResposta('resposta3')">Mostrar Resposta</button>
+                <div id="resposta3" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> b) 24 maneiras diferentes.</p>
+                    <p>Usando o princípio fundamental da contagem: 6 x 4 = 24 maneiras.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 4</h3>
+                <p>De quantas maneiras diferentes 6 amigos podem sentar em um banco para tirar uma foto?</p>
+                <ul>
+                    <li>a) 610 maneiras</li>
+                    <li>b) 800 maneiras</li>
+                    <li>c) 720 maneiras</li>
+                    <li>d) 580 maneiras</li>
+                </ul>
+                <button onclick="toggleResposta('resposta4')">Mostrar Resposta</button>
+                <div id="resposta4" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> c) 720 maneiras.</p>
+                    <p>Usamos a fórmula de permutação: P(6) = 6! = 720 maneiras.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 5</h3>
+                <p>Em uma competição de xadrez existem 8 jogadores. De quantas formas diferentes poderá ser formado o pódio (primeiro, segundo e terceiro lugares)?</p>
+                <ul>
+                    <li>a) 336 formas</li>
+                    <li>b) 222 formas</li>
+                    <li>c) 320 formas</li>
+                    <li>d) 380 formas</li>
+                </ul>
+                <button onclick="toggleResposta('resposta5')">Mostrar Resposta</button>
+                <div id="resposta5" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> a) 336 formas diferentes.</p>
+                    <p>Usamos arranjo: A(8, 3) = 8! / (8-3)! = 336 formas.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 6</h3>
+                <p>Uma lanchonete tem uma promoção de combo com preço reduzido em que o cliente pode escolher 4 tipos diferentes de sanduíches, 3 tipos de bebida e 2 tipos de sobremesa. Quantos combos diferentes os clientes podem montar?</p>
+                <ul>
+                    <li>a) 30 combos</li>
+                    <li>b) 22 combos</li>
+                    <li>c) 34 combos</li>
+                    <li>d) 24 combos</li>
+                </ul>
+                <button onclick="toggleResposta('resposta6')">Mostrar Resposta</button>
+                <div id="resposta6" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> d) 24 combos diferentes.</p>
+                    <p>Usando o princípio fundamental da contagem: 4 x 3 x 2 = 24 combos.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 7</h3>
+                <p>Quantas comissões de 4 elementos podemos formar com 20 alunos de uma turma?</p>
+                <ul>
+                    <li>a) 4 845 comissões</li>
+                    <li>b) 2 345 comissões</li>
+                    <li>c) 3 485 comissões</li>
+                    <li>d) 4 325 comissões</li>
+                </ul>
+                <button onclick="toggleResposta('resposta7')">Mostrar Resposta</button>
+                <div id="resposta7" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> a) 4 845 comissões.</p>
+                    <p>Usamos a fórmula de combinação: C(20, 4) = 20! / (4! * 16!) = 4 845 comissões.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 8</h3>
+                <p>Determine o número de anagramas:</p>
+                <ul>
+                    <li>a) Existentes na palavra FUNÇÃO.</li>
+                </ul>
+                <button onclick="toggleResposta('resposta8')">Mostrar Resposta</button>
+                <div id="resposta8" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> 720 anagramas.</p>
+                    <p>6 letras podem ser reorganizadas: 6! = 720.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 9</h3>
+                <p>Quantas formas possíveis Carlos e Ana podem ficar lado a lado?</p>
+                <button onclick="toggleResposta('resposta9')">Mostrar Resposta</button>
+                <div id="resposta9" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> 48 possibilidades.</p>
+                    <p>Considerando Carlos e Ana como uma única pessoa, temos 4! = 24. Como eles podem trocar de lugar, multiplicamos por 2: 24 x 2 = 48.</p>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <h3>Questão 10</h3>
+                <p>Quantas comissões podem ser formadas com 4 mulheres e 2 homens?</p>
+                <ul>
+                    <li>a) 100 comissões</li>
+                    <li>b) 250 comissões</li>
+                    <li>c) 200 comissões</li>
+                    <li>d) 150 comissões</li>
+                </ul>
+                <button onclick="toggleResposta('resposta10')">Mostrar Resposta</button>
+                <div id="resposta10" class="content-box" style="display: none;">
+                    <p><strong>Resposta correta:</strong> d) 150 comissões.</p>
+                    <p>Usamos a fórmula de combinação: C(6, 4) * C(5, 2) = 15 * 10 = 150.</p>
+                </div>
+            </div>
 
         </main>
     </div>
 
     <footer>
+        <p>&copy; 2025 Análise Combinatória. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
         <p>&copy; 2025 Análise Combinatória. Todos os direitos reservados.</p>
     </footer>
 
