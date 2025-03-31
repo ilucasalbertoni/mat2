@@ -75,8 +75,9 @@ footer {
     color: #FFFFFF;
     text-align: center;
     padding: 20px;
+       bottom: 0; /* Posiciona o rodapé na parte inferior da página */
     position: relative; /* Fixa o rodapé na parte inferior */
-    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
-    left: 0;
+ 
+ left: 0;
     right: 0; /* Garante que o rodapé ocupe toda a largura da página */
 }
