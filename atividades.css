@@ -63,6 +63,27 @@ header {
     background-color: #545454; /* Cor de fundo ao passar o mouse */
 }
 
+/* atividades.css */
+
+/* Estilo para os botões */
+.button {
+    background-color: #7D00DD; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Permite definir largura e altura */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.button:hover {
+    background-color: #5B00A3; /* Cor de fundo ao passar o mouse */
+}
 /* Estilo do conteúdo principal */
 .content {
     flex-grow: 1; 
